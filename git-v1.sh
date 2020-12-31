@@ -36,7 +36,7 @@
 
 # checking if I have the latest files from github
 echo "Checking for newer files online first"
-git pull
+#git pull
 gtk-update-icon-cache usr/share/icons/Surfn-Plasma-Dark
 # Below command will backup everything inside the project folder
 git add --all .
