@@ -33,6 +33,8 @@
 
 # git reset --hard orgin/master
 
+# git push -f
+
 
 # checking if I have the latest files from github
 echo "Checking for newer files online first"
