@@ -12,7 +12,7 @@
 
 ---
 
-A colour variant of the [Surfn](https://github.com/erikdubois/surfn) icon theme. Ships the **Surfn-Plasma-Dark**, **Surfn-Plasma-Dark-Breeze**, **Surfn-Plasma-Dark-Qogir**, **Surfn-Plasma-Dark-Tela** themes and inherits the base **Surfn** icon set, so `surfn-icons-git` is required.
+A colour variant of the [Surfn](https://github.com/erikdubois/surfn) icon theme. Ships only the **Surfn-Plasma-Dark** theme. It inherits **breeze-dark**/**breeze**, so a Breeze icon set (`breeze-icons`) should be present.
 
 ## Installation (Arch / Kiro — nemesis_repo)
 
@@ -20,12 +20,12 @@ A colour variant of the [Surfn](https://github.com/erikdubois/surfn) icon theme.
 sudo pacman -S surfn-plasma-dark-icons-git
 ```
 
-`surfn-icons-git` (base Surfn) is pulled in automatically as a dependency.
+The package has no hard dependencies; `breeze-icons` is part of any standard Plasma install.
 
 ## Manual
 
 Copy the **Surfn-Plasma-Dark** icon folder into `~/.icons` (or `~/.local/share/icons` on Plasma),
-make sure the base `Surfn` theme is present, then select **Surfn Plasma Dark** in your appearance settings.
+make sure `breeze-icons` is installed, then select **Surfn Plasma Dark** in your appearance settings.
 
 ## License
 
